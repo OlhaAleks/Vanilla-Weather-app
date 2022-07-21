@@ -39,7 +39,20 @@ function displayTemperature (response) {
     iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
-let apiKey = "5d30b474d4ae284fe49b962e45b136f7";
-let city = "Sidney";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-axios.get(apiUrl).then(displayTemperature);
+function search(city) {
+    let apiKey = "5d30b474d4ae284fe49b962e45b136f7";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(displayTemperature);
+    
+}
+
+function searchCityInput(event) {
+event.preventDefault();
+let cityInputElement = document.querySelector("#city-input");
+search(cityInputElement.value);
+}
+
+
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", searchCityInput);

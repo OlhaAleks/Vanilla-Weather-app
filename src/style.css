@@ -28,6 +28,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 h4 {
     color: #6c5b7c;
 }
@@ -55,4 +58,13 @@ h4 {
     position: relative;
     font-size: 20px;
     top: -34px;
+}
+
+.temperature-view .active {
+    color: #431270;
+    cursor: default;
+}
+.temperature-view .active:hover {
+    color:#0d6efd;
+    text-decoration: underline;
 }

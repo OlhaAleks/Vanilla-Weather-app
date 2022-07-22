@@ -68,3 +68,12 @@ h4 {
     color:#0d6efd;
     text-decoration: underline;
 }
+.icon-height {
+    height: 150px;
+}
+.wind-image {
+    max-width: 10%;
+}
+.humidity-image {
+    max-width: 8%;
+}

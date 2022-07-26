@@ -3,7 +3,7 @@ body {
     background: right/200% url("../images/sky-blueviolet.jpg");
     background-size: cover;
     
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: 1600px 1200px;
 }

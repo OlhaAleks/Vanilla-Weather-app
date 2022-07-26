@@ -2,8 +2,10 @@ body {
     font-family: Verdana, sans-serif;
     background: right/200% url("../images/sky-blueviolet.jpg");
     background-size: cover;
-    position: relative;
+    
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px 1200px;
 }
 h1 {
     color: #431270;
@@ -36,7 +38,7 @@ h4 {
 }
 .container {
 display: block;   
-        
+margin-left: 0;        
 }
 .weather-app-wrapper {
     margin: 10px auto; 

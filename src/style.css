@@ -34,17 +34,21 @@ a {
 h4 {
     color: #6c5b7c;
 }
+.container {
+display: block;   
+        
+}
 .weather-app-wrapper {
     margin: 10px auto; 
     width: 1100px;
 }
 .weather-app {
-    display: inline-block;
-    padding: 20px;
     background-color: rgb(247 213 243 / 30%);
-    height: 400px;
+    display: inline-block;
+    padding: 10px;
+    height: 500px;
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 10px auto;
     width: 50%;
     
 }
@@ -76,4 +80,21 @@ h4 {
 }
 .humidity-image {
     max-width: 8%;
+}
+.weather-forecast {
+    color: #6c5b7c;
+    margin-top: 18px;
+}
+.weather-forecast-date {
+    font-size: 18px;
+    opacity: 0.8;
+}
+.weather-forecast-temperature-min {
+    opacity: 0.8;
+}
+.weather-forecast-temperatures {
+    font-size: 14px;
+}
+.reference {
+    margin-top: 70px;  
 }

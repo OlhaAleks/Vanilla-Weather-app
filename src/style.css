@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-size: 1600px 1200px;
 }
+  
 h1 {
     color: #431270;
     font-size: 40px;
@@ -95,6 +96,7 @@ margin-left: 0;
 .weather-forecast-date {
     font-size: 18px;
     opacity: 0.8;
+    margin: 10px;
 }
 .weather-forecast-temperature-max{
     font-weight: 600;
